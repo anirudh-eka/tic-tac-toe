@@ -8,12 +8,23 @@ import static org.mockito.Mockito.verify;
  */
 public class GameTest {
     @Test
-    public void shouldMakeBoard(){
+    public void shouldShowBoard(){
+        UserPrompter userPrompter = mock(UserPrompter.class);
         Board board = mock(Board.class);
-        Game game = new Game(board);
+        Game game = new Game(board, userPrompter);
+
+        game.run();
+        verify(board).show();
+    }
+
+    @Test
+    public void shouldAskForUserInput(){
+        UserPrompter userPrompter = mock(UserPrompter.class);
+        Board board = mock(Board.class);
+        Game game = new Game(board, userPrompter);
 
         game.run();
 
-        verify(board).show();
+        verify(userPrompter).askMove();
     }
 }
