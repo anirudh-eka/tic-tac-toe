@@ -4,6 +4,10 @@
 public class Game {
     private Board board;
 
+    public static void main(String[] args) {
+        new Game(new Board(new Printer())).run();
+    }
+
     public Game(Board board) {
         this.board = board;
     }
