@@ -22,6 +22,6 @@ public class Game {
 
     public void run() {
         board.show();
-        userPrompter.askMove();
+        board.placeMove(userPrompter.askMove());
     }
 }
