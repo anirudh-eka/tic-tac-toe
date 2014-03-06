@@ -8,5 +8,6 @@ public class Printer {
     }
 
     public void render(String s) {
+        System.out.println(s);
     }
 }

@@ -10,11 +10,20 @@ import static org.mockito.Mockito.verify;
  */
 public class PrinterTest {
     @Test
-    public void printEmptyBoardToConsolewhenRenderIsCalledWithNoArgs() {
+    public void printEmptyBoardToConsoleWhenRenderIsCalledWithNoArgs() {
         PrintStream printStream = mock(PrintStream.class);
         System.setOut(printStream);
         Printer printer = new Printer();
         printer.render();
         verify(printStream).println("  |  |  \n  |  |  \n  |  |  ");
+    }
+
+    @Test
+    public void printStringToConsoleWhenReaderIsCalledWithStringArg() {
+        PrintStream printStream = mock(PrintStream.class);
+        System.setOut(printStream);
+        Printer printer = new Printer();
+        printer.render("hello world");
+        verify(printStream).println("hello world");
     }
 }
