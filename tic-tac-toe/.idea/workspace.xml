@@ -64,19 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="40" selection-start="303" selection-end="303" vertical-scroll-proportion="0.32296652" vertical-offset="15" max-vertical-offset="465">
+            <state line="14" column="34" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="35" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="735">
+            <state line="41" column="5" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.92583734" vertical-offset="168" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="UserPrompter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserPrompter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="49" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="495">
+            <state line="12" column="30" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="UserPrompterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/UserPrompterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="9" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="960">
+            <state line="45" column="9" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="27" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="16" column="24" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -112,8 +112,28 @@
       <file leaf-file-name="BoardTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/BoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="27" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="570">
+            <state line="39" column="5" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BoardBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="28" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardBuilderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/BoardBuilderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="8" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="660">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,15 +141,8 @@
       <file leaf-file-name="Printer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="34" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1080">
-              <folding>
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-              </folding>
+            <state line="5" column="22" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,7 +150,7 @@
       <file leaf-file-name="PrinterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/PrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="63" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="1590">
+            <state line="22" column="26" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="480">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,12 +171,14 @@
         <option value="$PROJECT_DIR$/src/GameTest.java" />
         <option value="$PROJECT_DIR$/test/UserPrompterTest.java" />
         <option value="$PROJECT_DIR$/src/UserPrompter.java" />
-        <option value="$PROJECT_DIR$/test/GameTest.java" />
         <option value="$PROJECT_DIR$/src/Game.java" />
-        <option value="$PROJECT_DIR$/test/BoardTest.java" />
-        <option value="$PROJECT_DIR$/src/Board.java" />
+        <option value="$PROJECT_DIR$/test/BoardBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/Printer.java" />
         <option value="$PROJECT_DIR$/test/PrinterTest.java" />
+        <option value="$PROJECT_DIR$/src/BoardBuilder.java" />
+        <option value="$PROJECT_DIR$/test/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/Board.java" />
+        <option value="$PROJECT_DIR$/test/GameTest.java" />
       </list>
     </option>
   </component>
@@ -273,17 +288,17 @@
     <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrinterTest">
+  <component name="RunManager" selected="JUnit.BoardTest.renderBoardStringWhenShowIsCalled">
     <configuration default="false" name="PrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="tic-tac-toe" />
@@ -307,15 +322,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PrinterTest.shouldPrintStringToConsoleWhenReaderIsCalledWithStringArg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="tic-tac-toe" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
-      <option name="METHOD_NAME" value="shouldPrintStringToConsoleWhenReaderIsCalledWithStringArg" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="BoardTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -330,15 +345,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PrinterTest.shouldUpdateFirstRowWithLocationsWhenUpdateFirstRowIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BoardBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="tic-tac-toe" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
-      <option name="METHOD_NAME" value="shouldUpdateFirstRowWithLocationsWhenUpdateFirstRowIsCalled" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="BoardBuilderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -353,15 +368,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PrinterTest.shouldUpdateSecondRowWithLocationsWhenUpdateSecondRowIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BoardTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="tic-tac-toe" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
-      <option name="METHOD_NAME" value="shouldUpdateSecondRowWithLocationsWhenUpdateSecondRowIsCalled" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="BoardTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -376,14 +391,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PrinterTest.shouldUpdateThirdRowWithLocationsWhenUpdateThirdRowIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BoardTest.renderBoardStringWhenShowIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="tic-tac-toe" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
-      <option name="METHOD_NAME" value="shouldUpdateThirdRowWithLocationsWhenUpdateThirdRowIsCalled" />
+      <option name="MAIN_CLASS_NAME" value="BoardTest" />
+      <option name="METHOD_NAME" value="renderBoardStringWhenShowIsCalled" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -612,18 +627,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PrinterTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldPrintStringToConsoleWhenReaderIsCalledWithStringArg" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldUpdateFirstRowWithLocationsWhenUpdateFirstRowIsCalled" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldUpdateSecondRowWithLocationsWhenUpdateSecondRowIsCalled" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldUpdateThirdRowWithLocationsWhenUpdateThirdRowIsCalled" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardBuilderTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest.renderBoardStringWhenShowIsCalled" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PrinterTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldUpdateThirdRowWithLocationsWhenUpdateThirdRowIsCalled" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldUpdateSecondRowWithLocationsWhenUpdateSecondRowIsCalled" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldUpdateFirstRowWithLocationsWhenUpdateFirstRowIsCalled" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldPrintStringToConsoleWhenReaderIsCalledWithStringArg" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest.renderBoardStringWhenShowIsCalled" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BoardBuilderTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PrinterTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -655,12 +670,12 @@
       <created>1394134141407</created>
       <updated>1394134141407</updated>
       <workItem from="1394134142663" duration="13517000" />
-      <workItem from="1394152765824" duration="5317000" />
+      <workItem from="1394152765824" duration="9113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18834000" />
+    <option name="totallyTimeSpent" value="22630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1400" height="790" extended-state="0" />
@@ -760,14 +775,7 @@
     <entry file="file://$PROJECT_DIR$/src/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="70" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="555">
-          <folding>
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +790,48 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="453" column="0" selection-start="16452" selection-end="16505" vertical-scroll-proportion="-1.501199" vertical-offset="7076" max-vertical-offset="18405" />
+        <state line="453" column="0" selection-start="16452" selection-end="16505" vertical-scroll-proportion="-1.501199" vertical-offset="7076" max-vertical-offset="18405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/BoardBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="660">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="480">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoardBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="28" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserPrompter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/UserPrompterTest.java">
@@ -792,60 +841,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/GameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="35" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserPrompter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="49" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="495">
+        <state line="16" column="24" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="27" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PrinterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="63" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="1590">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="39" column="5" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="303" selection-end="303" vertical-scroll-proportion="0.32296652" vertical-offset="15" max-vertical-offset="465">
+        <state line="14" column="34" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.92583734" vertical-offset="168" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
