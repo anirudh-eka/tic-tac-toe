@@ -1,19 +1,54 @@
-import java.util.Set;
+import java.util.List;
 
 /**
  * Created by adhulip on 3/6/14.
  */
 public class Printer {
-    public void render(Set set) {
-        if(set.isEmpty()) {
-            System.out.println("  |  |  \n---------\n  |  |  \n---------\n  |  |  ");
-        } else if (set.contains(1)) {
-            System.out.println(" X|  |  \n---------\n  |  |  \n---------\n  |  |  ");
+    private String firstRow = "  |  |  ";
+    private String secondRow = "  |  |  ";
+    private String thirdRow = "  |  |  ";
+
+    public void render(List<Integer> list) {
+
+        for(Integer i : list) {
+            if (i > 0 && i <= 3) {
+                updateFirstRow(i);
+            } else if (i > 3 && i <= 6) {
+                updateSecondRow(i-3);
+            } else if (i > 6 && i <= 9) {
+                updateThirdRow(i-6);
+            }
         }
+
+        System.out.println(firstRow + "\n---------\n"+ secondRow +"\n---------\n"+ thirdRow);
     }
 
     public void render(String s) {
         System.out.println(s);
+    }
+
+    public void updateFirstRow(int i) {
+        firstRow = constructRow(i, firstRow);
+    }
+
+    public String getFirstRow() {
+        return firstRow;
+    }
+
+    public void updateSecondRow(int i) {
+        secondRow = constructRow(i, secondRow);
+    }
+
+    public String getSecondRow() {
+        return secondRow;
+    }
+
+    public void updateThirdRow(int i) {
+        thirdRow = constructRow(i, thirdRow);
+    }
+
+    public String getThirdRow() {
+        return thirdRow;
     }
 
     public String constructRow(int i, String rowString) {

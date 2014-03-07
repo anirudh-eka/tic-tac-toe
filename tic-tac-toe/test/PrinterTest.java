@@ -1,7 +1,9 @@
 import org.junit.Test;
 
 import java.io.PrintStream;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import static org.hamcrest.core.Is.is;
@@ -18,9 +20,9 @@ public class PrinterTest {
         PrintStream printStream = mock(PrintStream.class);
         System.setOut(printStream);
         Printer printer = new Printer();
-        Set set = new HashSet();
+        List list = new ArrayList();
 
-        printer.render(set);
+        printer.render(list);
 
         verify(printStream).println("  |  |  \n---------\n  |  |  \n---------\n  |  |  ");
     }
@@ -30,12 +32,17 @@ public class PrinterTest {
         PrintStream printStream = mock(PrintStream.class);
         System.setOut(printStream);
         Printer printer = new Printer();
-        Set set = new HashSet();
-        set.add(1);
+        List list = new ArrayList();
+        list.add(1);
 
-        printer.render(set);
+        printer.render(list);
 
         verify(printStream).println(" X|  |  \n---------\n  |  |  \n---------\n  |  |  ");
+
+        list.add(5);
+        printer.render(list);
+
+        verify(printStream).println(" X|  |  \n---------\n  | X|  \n---------\n  |  |  ");
     }
 
     @Test
@@ -47,6 +54,39 @@ public class PrinterTest {
         assertThat(printer.constructRow(2, "  |  |  "), is("  | X|  "));
         assertThat(printer.constructRow(1, "  |  |  "), is(" X|  |  "));
         assertThat(printer.constructRow(3, "  |  |  "), is("  |  | X"));
+    }
+
+    @Test
+    public void shouldUpdateFirstRowWithLocationsWhenUpdateFirstRowIsCalled() {
+        PrintStream printStream = mock(PrintStream.class);
+        System.setOut(printStream);
+        Printer printer = new Printer();
+        printer.updateFirstRow(2);
+        assertThat(printer.getFirstRow(), is("  | X|  "));
+        printer.updateFirstRow(1);
+        assertThat(printer.getFirstRow(), is(" X| X|  "));
+    }
+
+    @Test
+    public void shouldUpdateSecondRowWithLocationsWhenUpdateSecondRowIsCalled() {
+        PrintStream printStream = mock(PrintStream.class);
+        System.setOut(printStream);
+        Printer printer = new Printer();
+        printer.updateSecondRow(2);
+        assertThat(printer.getSecondRow(), is("  | X|  "));
+        printer.updateSecondRow(3);
+        assertThat(printer.getSecondRow(), is("  | X| X"));
+    }
+
+    @Test
+    public void shouldUpdateThirdRowWithLocationsWhenUpdateThirdRowIsCalled() {
+        PrintStream printStream = mock(PrintStream.class);
+        System.setOut(printStream);
+        Printer printer = new Printer();
+        printer.updateThirdRow(2);
+        assertThat(printer.getThirdRow(), is("  | X|  "));
+//        printer.updateThirdRow(3);
+//        assertThat(printer.getThirdRow(), is("  | X| X"));
     }
 
     @Test

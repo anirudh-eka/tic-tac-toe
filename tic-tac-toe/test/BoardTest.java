@@ -1,6 +1,8 @@
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import static org.mockito.Mockito.mock;
@@ -15,24 +17,24 @@ public class BoardTest {
 
         Printer printer = mock(Printer.class);
         Board board = new Board(printer);
-        Set set = new HashSet<Integer>();
+        List list = new ArrayList<Integer>();
 
         board.show();
 
-        verify(printer).render(set);
+        verify(printer).render(list);
     }
 
     @Test
     public void addsXToBoardWhenPlaceMove() {
         Printer printer = mock(Printer.class);
         Board board = new Board(printer);
-        Set set = new HashSet<Integer>();
-        set.add(1);
+        List list = new ArrayList<Integer>();
+        list.add(1);
 
         board.placeMove(1);
 
         board.show();
 
-        verify(printer).render(set);
+        verify(printer).render(list);
     }
 }

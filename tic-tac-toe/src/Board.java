@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Set;
  */
 public class Board {
     private Printer printer;
-    private Set playerMoves = new HashSet<Integer>();
+    private List playerMoves = new ArrayList<Integer>();
 
     public Board(Printer printer) {
         this.printer = printer;
